@@ -278,17 +278,18 @@ box-shadow: 0px 2px 2px 2px rgb(58, 57, 57);
 
 #dashboard{
     display: flex;
+    flex-direction: column;
 }
 .cajadash{
     background-color:var(--darkblue);
 }
 .imgdash img{
-width: 100%;
-margin-top: 4rem;
+width: 70%;
+margin:4em 2em 0 2em;
 
 }
 .dashmenu{
-    height: 66vh;
+    height:20vh;
     text-align: center;
     margin-top: 90px;
     background-color:var(--darkblue);
@@ -346,9 +347,10 @@ bottom: 20px;
 .form3{
    
     display: flex;
-   position: fixed;
-   left:53%;
-   top: 40%;
+   position: relative;
+   left: 20%;
+   top:40%
+  
 
 }
 .form3 button{
@@ -598,6 +600,32 @@ tbody{
         margin: 0 0;
         
         }
+        #dashboard{
+            display: flex;
+            flex-direction: row;
+        }
+        .imgdash img{
+            width: 80%;
+            margin-top: 4rem;
+            
+            }
+            .dashmenu{
+                height: 66vh;
+                text-align: center;
+                margin-top: 90px;
+                background-color:var(--darkblue);
+            }
+            .imgdash img{
+                width: 90%;
+                margin:4rem 0 0 0;
+                
+                }
+        .form3{
+            display: flex;
+            position: fixed;
+            left:53%;
+            top: 40%;
+            }
 
 }
 @media screen and (min-width:1024px){
@@ -724,6 +752,28 @@ tbody{
     background-color: var(--darkblue);
     
     }
-
+/*Dashboard---------------------------------*/
+#dashboard{
+    display: flex;
+    flex-direction: row;
 }
+.dashmenu{
+    height: 66vh;
+    text-align: center;
+    margin-top: 90px;
+    background-color:var(--darkblue);
+}
+.imgdash img{
+    width: 100%;
+    margin-top: 4rem;
+    
+    }
+    .form3{
+   
+    display: flex;
+    position: fixed;
+    left:53%;
+    top: 40%;
+    
+    }
 }
