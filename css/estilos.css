@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-
 :root{
 --red:#A40101;
 --bluegreen: #2ca3ab;
@@ -20,11 +19,9 @@ body{
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    
 }
 #header1{
     display: flex;
-
     width: 50%;
     margin-right: 1rem;
     margin-top: 1.5rem;
@@ -37,7 +34,6 @@ body{
     margin-left: 1rem;
     border-radius: 15px;
 }
-   
 .bogota{
     right: 50%;
     top: 20px;
@@ -54,179 +50,162 @@ body{
     margin-left: 3rem ;
     margin-right: 0.5rem;
 }
-.contacto{
-display:flex;
-flex-direction: column;
-font-size: small;
-margin-right: 3rem;
-margin-left: 1rem;
-margin-top: 1.5rem;
-color: #242323;
+.contacto {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    color: #242323;
 }
-.contacto img{
-width: 20px;
-height: 20px;
+.contacto img {
+    width: 20px;
+    height: 20px;
 }
-button{
-background-color: var(--blue);
-border-radius: 8px;
+button {
+    background-color: var(--blue);
+    border-radius: 8px;
+}
+.boton {
+    margin: 1rem auto;
+}
 
+.texboton {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
-.boton{
-margin: 1rem auto;
-}
-.texboton{
-font-size: 10px;
-color:white;
-text-decoration: none;
-text-align: center;
 
+.linea1 {
+    width: 70%;
+    margin-left: 0 3rem;
 }
-.linea1{
-width: 70%;
-margin-left: 0 3rem;
 
-}
 /*seccion 1*/
-.sec1{
-
-width: 100%;
-height: 20rem;
-background-image: url(../img/medico.png);
-background-size: cover;
+.sec1 {
+    width: 100%;
+    height: 20rem;
+    background-image: url(../img/medico.png);
+    background-size: cover;
 }
-.unidos{
-width: 300px;
-margin-right: 10rem;
-display: flex;
-flex-direction: column;
-align-items: center;
 
-
-position: relative;
-left: 20%;
-top: 30%;
+.unidos {
+    width: 300px;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    top: 30%;
 }
-.unidos h3{
+
+.unidos h3 {
     color: #F3610E;
     margin-bottom: 5px;
 }
-.unidos h1{
+
+.unidos h1 {
     margin-top: 5px;
 }
-.franja{
 
-}
-.franja img{
+.franja img {
     width: 100%;
     height: 100%;
 }
 
-
 /*seccion 2*/
-.sec2{
-
-background-image: url(../img/fondocorona.png);
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-padding: 1rem;
-margin: 0 1rem;
-
+.sec2 {
+    background-image: url(../img/fondocorona.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 0 1rem;
 }
 
-.art1{
-width: 200px;
-display: flex;
+.art1 {
+    width: 200px;
+    display: flex;
 }
-.art1 img{
-width: 2rem;
-margin-right: 0.5rem;
+.art1 img {
+    width: 2rem;
+    margin-right: 0.5rem;
 }
-
+.art1 h4 {
+    color: var(--darkblue);
 }
-.art1 h4{
-color: var(--darkblue);
-
+.sintomas li {
+    list-style: url(../img/check2.png);
 }
-.sintomas li{ list-style: url(../img/check2.png);
-
-}
-.art2{
-width:400px;
-}
-.que{
-display: flex;
+.art2 {
+    width: 400px;
 }
 
-.que img{
-width: 2rem;
+.que {
+    display: flex;
 }
-
-.que2{
-
-display: flex;
-flex-direction: column;
+.que img {
+    width: 2rem;
 }
-.que2 img{
-width: 4rem;
+.que2 {
+    display: flex;
+    flex-direction: column;
 }
-.sec3{
-background-color: var(--darkblue);
-
+.que2 img {
+    width: 4rem;
 }
-.sec3 a{
-color: white;
-width: 100%;
-text-decoration: none;
-margin-left: 1rem;
+.sec3 {
+    background-color: var(--darkblue);
 }
-.sec3 img{
-width: 100%;
-height: 10px;
+.sec3 a {
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    margin-left: 1rem;
 }
-
+.sec3 img {
+    width: 100%;
+    height: 10px;
 }
-.sec4{
-
+.sec4 p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 12px;
 }
-.sec4 p{
-margin-block-start: 0px;
-margin-block-end: 0px;
-font-size: 12px;
-}
-.footerindex{
-text-align: center;
-color: white;
-background-color: black;
-height: 3rem;
-padding-top: 0.5rem;
+.footerindex {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 3rem;
+    padding-top: 0.5rem;
 }
 /*Fin Index----------------------------------------------------------------------------------------*/
-.bodylog{
-width: 100%;
-background-image: url(../img/fondologin.png);
+.bodylog {
+    width: 100%;
+    background-image: url(../img/fondologin.png);
 }
-.botonubi{
-  
+.botonubi {
     display: flex;
     justify-content: center;
     margin-top: 4rem;
     margin-left: 32%;
 }
-.login{
-margin: auto;
-margin-top: 20px;
-background-color: white;
-width: 420px;
-height: 480px;
-display: flex;
-flex-direction: column;
-align-items: center;
-border-radius: 30px;
-box-shadow: 0px 2px 2px 2px rgb(58, 57, 57);
+.login {
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 420px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 2px 2px 2px rgb(58, 57, 57);
 }
-.group{
+.group {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,272 +214,247 @@ box-shadow: 0px 2px 2px 2px rgb(58, 57, 57);
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
-
 }
-.contigo{
+.contigo {
     margin-top: 1rem;
     text-align: center;
     margin-top: 0.3px;
     border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    background-color: #A8DDE0;
-    width:420px;
+    width: 420px;
     height: 200px;
     border-top: 5px solid #A8DDE0;
 }
-.contigo img{
+.contigo img {
     margin-top: 3rem;
 }
-.form-input{
+.form-input {
     border-radius: 15px;
     width: 50%;
     background-color: #e7fdffe1;
     border-style: solid;
-   border-color: #b1e7ebc9;
-   padding-left: 1rem;
-   outline: none;
-    
-   
+    border-color: #b1e7ebc9;
+    padding-left: 1rem;
+    outline: none;
 }
-.igresob{
+.igresob {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.igresob button{
+.igresob button {
     margin-top: 10px;
     background-color: var(--orange);
-   
 }
-.igresob a{
-    color:white;
+.igresob a {
+    color: white;
 }
-
-#dashboard{
+#dashboard {
     display: flex;
     flex-direction: column;
 }
-.cajadash{
-    background-color:var(--darkblue);
+.cajadash {
+    background-color: var(--darkblue);
 }
-.imgdash img{
-width: 70%;
-margin:4em 2em 0 2em;
-
+.imgdash img {
+    width: 70%;
+    margin: 4em 2em 0 2em;
 }
-.dashmenu{
-    height:20vh;
+.dashmenu {
+    height: 40vh;
     text-align: center;
     margin-top: 90px;
-    background-color:var(--darkblue);
+    background-color: var(--darkblue);
 }
-.dashmenu ul{
+.dashmenu ul {
     list-style: none;
     padding-inline-start: 0px
-
 }
-
-.dashmenu a{
- 
+.dashmenu a {
     color: rgb(12, 12, 12);
     display: block;
-    background-color:var(--gray);
+    background-color: var(--gray);
     margin-bottom: 2rem;
     font-size: 12px;
-  
     height: 30px;
-    
     padding-top: 5px;
     border: 2px solid var(--orange);
     border-radius: 5px;
-  
 }
-.dashmenu i{
+.dashmenu i {
     margin-bottom: 1px;
     margin-top: 3px;
 }
-.dashmenu h4{
+.dashmenu h4 {
     margin-top: 2px;
     margin-bottom: 2px;
- font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.dashcontenido{
+.dashcontenido {
     flex-basis: 80%;
 }
-.guerreros{
-    
+.guerreros img {
+    width: 200px;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
 }
-.guerreros img{
-width: 320px;    
-position: fixed;
-right: 20px;
-bottom: 20px;
-}
-.franja2 img{
-    width: 1058px;
+.franja2 img {
+    width: 100%;
 }
 .franja2 {
     position: fixed;
-    bottom:-5px;
-
+    bottom: -5px;
 }
-.form3{
-   
+.form3 {
     display: flex;
-   position: relative;
-   left: 20%;
-   top:40%
-  
-
+    position: relative;
+    left: 20%;
+    top: 40%;
+    width: 300px;
 }
-.form3 button{
+.form3 button {
     margin: 3px;
 }
-.titulocontenido{
+.titulocontenido {
     margin-top: 7rem;
-
+    margin-left: 6em;
 }
-.titulocontenido h1{
+.titulocontenido h1 {
     color: #F3610E;
-    text-align: center;
+    text-align: left;
 }
 .input1 input {
-    border:none;
+    border: none;
     width: 200px;
     outline: none;
-    border-bottom:1px solid var(--darkblue);
+    border-bottom: 1px solid var(--darkblue);
     margin-left: 5px;
     font-size: 12px;
 }
-.perfil{
+.perfil {
     width: 180px;
     height: 45px;
     display: flex;
     background-color: #7070708f;
     border-radius: 10px;
     margin-top: 1rem;
-    position: fixed;
-    right: 28px;
-   
-    
+    margin-left: 1rem;
+    position: relative;
 }
-.iconoperfil i{ 
+.iconoperfil i {
     margin-top: 5px;
     background-color: black;
     color: #ffffff;
     border-radius: 50px;
     border: 3px solid var(--orange);
-  
-
 }
-#fondoalert{
+#fondoalert {
     background-image: url(../img/fondoalert.png);
     background-size: cover;
 }
-#hpaciente{
-    background-color:#242323;
+#hpaciente {
+    background-color: #242323;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.pacienteboton{
+.pacienteboton {
     margin-top: 1rem;
     margin-right: 3px;
     margin-bottom: 0.5rem;
 }
-.pacienteboton button{
+.pacienteboton button {
     background-color: var(--gray);
     width: 40px;
     height: 40px;
     border: 3px solid var(--bluegreen);
     border-radius: 50px;
 }
-.pacienteboton i{
-    color:black
+.pacienteboton i {
+    color: black
 }
-.franjapaciente{
+.franjapaciente {
     width: 100%;
-    }
-.franjapaciente img{
+}
+.franjapaciente img {
     width: 100%;
     height: 50px;
 }
-.capa{
+.capa {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(73, 71, 71, 0.507);
 }
-.superior{
+.superior {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     width: 400px;
     height: 250px;
-    background-color:white;
+    background-color: white;
     position: absolute;
     top: 40%;
     left: 40%;
 }
-.noregis h5{ 
-    color:rgb(65, 64, 64);
+.noregis h5 {
+    color: rgb(65, 64, 64);
     font-size: 20px;
     text-align: center;
+}
+.botongracias {
+    background-color: #F3610E;
 
 }
-.botongracias{
-    background-color: #F3610E;
-   
-}
-.botongracias a{
+.botongracias a {
     color: white;
     text-decoration: none;
 }
-.botoncancel a{
+.botoncancel a {
     color: white;
     text-decoration: none;
 }
-.secpaciente{
+.secpaciente {
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
 }
-.pacienteagre button{ 
-background-color: var(--orange);
-color: #ffffff;
+.pacienteagre button {
+    background-color: var(--orange);
+    color: #ffffff;
 
 }
-.pacienteagre a{
+.pacienteagre a {
     color: white;
     text-decoration: none;
 }
-.pacienteh1 h1{
+.pacienteh1 h1 {
     color: var(--darkblue);
     text-decoration: underline;
 }
-table{
+table {
     width: 1080px;
-    border-color:var(--bluegreen);
+    border-color: var(--bluegreen);
     text-align: center;
     border-collapse: collapse;
     font-size: 15px;
     margin-bottom: 5rem;
     margin-top: 3rem;
 }
-thead{
+thead {
     background-color: var(--darkblue);
     color: white;
     height: 52px;
 }
-tbody{
+tbody {
     background-color: var(--gray);
     height: 45px;
 }
-.botoneliminar{
+.botoneliminar {
     background-color: #A40101;
 }
-.tregistro{
+.tregistro {
     width: 70%;
     margin: auto;
     background-color: var(--darkblue);
@@ -508,34 +462,29 @@ tbody{
     text-align: center;
     border-radius: 12px;
 }
-.f1{
-   
-}
-.f1 input{
+.f1 input {
     margin-right: 1.2rem;
     margin-bottom: 1rem;
 
 }
-.cajaformulario{
+.cajaformulario {
     width: 880px;
-    background-color:var(--gray);
+    background-color: var(--gray);
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 1rem;
     border-radius: 10px;
     border: 1px solid black;
-    
-}
 
-.cajaformulario input{
+}
+.cajaformulario input {
     border-color: var(--bluegreen);
     outline: none;
     width: 400px;
     margin: 10px;
-    
 }
-.cajaformulario select{
+.cajaformulario select {
     border-color: var(--bluegreen);
     height: 25px;
     outline: none;
@@ -543,21 +492,21 @@ tbody{
     margin-left: 12px;
     width: 410px;
 }
-.infoncontacto1{
+.infoncontacto1 {
     display: flex;
-    justify-content:space-between;
-   
+    justify-content: space-between;
+
 }
-.datospaciente1{
+.datospaciente1 {
     display: flex;
-    
+
 }
-.datospaciente3{
+.datospaciente3 {
     display: flex;
 }
-.subdatos{
+.subdatos {
     padding-top: 12px;
-    background-color:var(--bluegreen);
+    background-color: var(--bluegreen);
     text-align: center;
     height: 30px;
     border-radius: 3px;
@@ -565,215 +514,212 @@ tbody{
     border-color: #1D1B45;
     border-width: 1px;
 }
-.radio{
-  display: flex;
+.radio {
+    display: flex;
     width: 200px;
     margin: auto;
     margin-top: 10px;
-    
-
 }
-.botonguardar{
+.botonguardar {
     width: 120px;
     background-color: #F3610E;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 /*Responsive*/
-
-@media screen and (min-width:768px){
-    #header2{
+@media screen and (min-width:750px) {
+    #header2 {
         display: flex;
         flex-direction: row;
-       
         padding: 1rem;
         margin-left: 3rem;
         border-radius: 15px;
     }
-    .sec2{
-    
+    .sec2 {
         background-image: url(../img/fondocorona.png);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 1rem;
         margin: 0 0;
-        
-        }
-        #dashboard{
-            display: flex;
-            flex-direction: row;
-        }
-        .imgdash img{
-            width: 80%;
-            margin-top: 4rem;
-            
-            }
-            .dashmenu{
-                height: 66vh;
-                text-align: center;
-                margin-top: 90px;
-                background-color:var(--darkblue);
-            }
-            .imgdash img{
-                width: 90%;
-                margin:4rem 0 0 0;
-                
-                }
-        .form3{
-            display: flex;
-            position: fixed;
-            left:53%;
-            top: 40%;
-            }
-
+    }
+    #dashboard {
+        display: flex;
+        flex-direction: row;
+    }
+    .imgdash img {
+        width: 80%;
+        margin-top: 4rem;
+    }
+    .dashmenu {
+        height: 66vh;
+        text-align: center;
+        margin-top: 90px;
+        background-color: var(--darkblue);
+    }
+    .imgdash img {
+        width: 90%;
+        margin: 4rem 0 0 0;
+    }
+    .form3 {
+        display: flex;
+        position: fixed;
+        left: 53%;
+        top: 40%;
+    }
+    .perfil {
+        position: fixed;
+        right: 28px;
+    }
+    .guerreros img {
+        width: 250px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+    .franja2 img {
+        width: 1000px;
+    }
+    .titulocontenido {
+        margin-left: 0;
+    }
+    .titulocontenido h1 {
+        text-align: center;
+    }
 }
-@media screen and (min-width:1024px){
-
-   
-    #principalh{
+@media screen and (min-width:1024px) {
+    #principalh {
         margin: 1rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    #header1{
+    #header1 {
         display: flex;
         width: 20%;
         margin-right: 1rem;
         margin-top: 1.5rem;
     }
-    #header2{
+    #header2 {
         display: flex;
         flex-direction: row;
         background-color: rgba(255, 255, 255, 0.007);
         background-image: none;
         margin-left: 3rem;
     }
-    .contacto{
-        display:flex;
+    .contacto {
+        display: flex;
         flex-direction: row;
         margin-right: 0;
-        }
-    .bogota{
-         position: relative;
-            }
-   
-    .linea1{
-     width: 70%;
-     margin-left: 18rem;
     }
-    .boton{
+    .bogota {
+        position: relative;
+    }
+    .linea1 {
+        width: 70%;
+        margin-left: 18rem;
+    }
+    .boton {
         margin-right: 2rem;
         margin-top: 1.5rem;
-        }
-       
-        /*seccion 1*/
-.sec1{
-    /*width: 100%;*/
-    height: 20rem;
-    background-image: url(../img/medico.png);
-    background-size: cover;
     }
-    .unidos{
-    width: 300px;
-    margin-right: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-    position: relative;
-    left: 20%;
-    top: 30%;
+    /*seccion 1*/
+    .sec1 {
+        /*width: 100%;*/
+        height: 20rem;
+        background-image: url(../img/medico.png);
+        background-size: cover;
     }
-    .unidos h3{
+    .unidos {
+        width: 300px;
+        margin-right: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: 20%;
+        top: 30%;
+    }
+    .unidos h3 {
         color: #F3610E;
         margin-bottom: 5px;
     }
-    .unidos h1{
+    .unidos h1 {
         margin-top: 5px;
     }
-    .franja{
-    
-    }
-    .franja img{
+    .franja {}
+    .franja img {
         width: 100%;
         height: 100%;
-    
     }
     /*seccion 2*/
-    .sec2{
-    
-    background-image: url(../img/fondocorona.png);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1rem;
-    margin: 0 0;
-    
+    .sec2 {
+        background-image: url(../img/fondocorona.png);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        margin: 0 0;
     }
-    .art1{
-    width: 350px;
-    display: flex;
-    
+    .art1 {
+        width: 350px;
+        display: flex;
     }
-    .art1 img{
-    width: 2rem;
-    margin-right: 0.5rem;
+    .art1 img {
+        width: 2rem;
+        margin-right: 0.5rem;
     }
-    .art1 h4{
-    color: var(--darkblue);
-    
+    .art1 h4 {
+        color: var(--darkblue);
     }
-    .sintomas li{ list-style: url(../img/check2.png);
-    
+    .sintomas li {
+        list-style: url(../img/check2.png);
     }
-    .art2{
-    width:400px;
+    .art2 {
+        width: 400px;
     }
-    .que{
-    display: flex;
+    .que {
+        display: flex;
     }
-    
-    .que img{
-    width: 2rem;
+    .que img {
+        width: 2rem;
     }
-    
-    .que2{
-    
-    display: flex;
-    flex-direction: column;
+    .que2 {
+        display: flex;
+        flex-direction: column;
     }
-    .que2 img{
-    width: 4rem;
+    .que2 img {
+        width: 4rem;
     }
-    .sec3{
-    background-color: var(--darkblue);
-    
+    .sec3 {
+        background-color: var(--darkblue);
     }
-/*Dashboard---------------------------------*/
-#dashboard{
-    display: flex;
-    flex-direction: row;
-}
-.dashmenu{
-    height: 66vh;
-    text-align: center;
-    margin-top: 90px;
-    background-color:var(--darkblue);
-}
-.imgdash img{
-    width: 100%;
-    margin-top: 4rem;
-    
+    /*Dashboard---------------------------------*/
+    #dashboard {
+        display: flex;
+        flex-direction: row;
     }
-    .form3{
-   
-    display: flex;
-    position: fixed;
-    left:53%;
-    top: 40%;
-    
+    .dashmenu {
+        height: 66vh;
+        text-align: center;
+        margin-top: 90px;
+        background-color: var(--darkblue);
+    }
+    .imgdash img {
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .form3 {
+        display: flex;
+        position: fixed;
+        left: 53%;
+        top: 40%;
+    }
+    .perfil {
+        position: fixed;
+        right: 28px;
+    }
+    .franja2 img {
+        width: 1058px;
     }
 }
