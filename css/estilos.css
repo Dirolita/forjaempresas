@@ -387,6 +387,10 @@ button {
     background-color: rgba(73, 71, 71, 0.507);
 }
 .superior {
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    background-image: url(../img/fondocontat.png);
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -394,9 +398,6 @@ button {
     width: 400px;
     height: 250px;
     background-color: white;
-    position: absolute;
-    top: 40%;
-    left: 40%;
 }
 .noregis h5 {
     color: rgb(65, 64, 64);
@@ -417,8 +418,10 @@ button {
 }
 .secpaciente {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 2rem;
+    margin-left: 1rem;
 }
 .pacienteagre button {
     background-color: var(--orange);
@@ -434,14 +437,17 @@ button {
     text-decoration: underline;
 }
 table {
-    width: 1080px;
+    width: 300px;
     border-color: var(--bluegreen);
     text-align: center;
     border-collapse: collapse;
-    font-size: 15px;
+    font-size: 10px;
     margin-bottom: 5rem;
     margin-top: 3rem;
 }
+
+
+
 thead {
     background-color: var(--darkblue);
     color: white;
@@ -454,6 +460,7 @@ tbody {
 .botoneliminar {
     background-color: #A40101;
 }
+
 .tregistro {
     width: 70%;
     margin: auto;
@@ -462,13 +469,16 @@ tbody {
     text-align: center;
     border-radius: 12px;
 }
+.tregistro h1{
+    font-size: medium;
+}
 .f1 input {
     margin-right: 1.2rem;
     margin-bottom: 1rem;
 
 }
 .cajaformulario {
-    width: 880px;
+    width: 300px;
     background-color: var(--gray);
     display: flex;
     flex-direction: column;
@@ -481,7 +491,7 @@ tbody {
 .cajaformulario input {
     border-color: var(--bluegreen);
     outline: none;
-    width: 400px;
+    width: 220px;
     margin: 10px;
 }
 .cajaformulario select {
@@ -490,7 +500,7 @@ tbody {
     outline: none;
     margin-top: 10px;
     margin-left: 12px;
-    width: 410px;
+    width: 220px;
 }
 .infoncontacto1 {
     display: flex;
@@ -498,11 +508,11 @@ tbody {
 
 }
 .datospaciente1 {
-    display: flex;
+    display: block;
 
 }
 .datospaciente3 {
-    display: flex;
+    display: block;
 }
 .subdatos {
     padding-top: 12px;
@@ -586,6 +596,45 @@ tbody {
     .titulocontenido h1 {
         text-align: center;
     }
+    table {
+        width: 700px;
+        font-size: 15px;
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+    .secpaciente {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .cajaformulario {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cajaformulario input {
+        width: 300px;
+        margin: 10px;
+    }
+    .cajaformulario select {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 300px;
+    }
+    .datospaciente1 {
+    display: block;
+}
+.datospaciente1 {
+    display: flex;
+}
+.datospaciente3 {
+    display: flex;
+}
+.tregistro h1{
+    font-size: medium;
+}
+    
 }
 @media screen and (min-width:1024px) {
     #principalh {
@@ -722,4 +771,43 @@ tbody {
     .franja2 img {
         width: 1058px;
     }
+    .secpaciente {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    table {
+        width: 1000px;
+        
+    }
+    .cajaformulario {
+        width: 880px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cajaformulario input {
+        width: 400px;
+        margin: 10px;
+    }
+    .cajaformulario select {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 410px;
+    }
+    .datospaciente1 {
+        display: block;
+    }
+    .datospaciente1 {
+        display: flex;
+    }
+    .datospaciente3 {
+        display: flex;
+    }
+    .tregistro h1{
+        font-size: medium;
+    }
+   
+  
+   
 }
