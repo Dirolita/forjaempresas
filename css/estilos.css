@@ -35,8 +35,10 @@ body{
     margin-left: 1rem;
     border-radius: 15px;
 }
+
 .imgforja{
 position: relative;
+left: -40px;
 animation-name: example;
 margin: 0 auto;
   animation-duration: 2s;
