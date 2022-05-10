@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/5e8f2c7b17.js" crossorigin="anonymous"></script>
+    <title> Registro Nuevo Paciente </title>
+    <link rel="icon" href="img/iconohead.png">
+</head>
+
+<body>
+    <header id=hpaciente>
+        <div>
+            <img src="img/logoforja.png">
+        </div>
+        <div class="pacienteboton">
+            <button><a href="dashboard.html"><i class="fa-solid fa-house-user"></i></a></button>
+            <button><a href="index.html"><i class="fa-solid fa-power-off"></i></a></button>
+        </div>
+    </header>
+
+    <div class="franjapaciente">
+        <img src="img/franja2.png">
+    </div>
+    <div class="tregistro">
+
+
+
+        <h1>INFORMACIÓN DEL PACIENTE</h1>
+    </div>
+
+    <section class="cajaformulario">
+
+        <div class="f1">
+            <form>
+                <input type="date" placeholder="Fecha de registro">
+                <input type="text" placeholder="N° registro">
+            </form>
+        </div>
+
+        <div class="subdatos">
+            <label><i class="fa-solid fa-user"></i>DATOS DEL PACIENTE</label>
+        </div>
+
+        <div>
+            <from>
+                <div class="datospaciente1">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Apellidos">
+                </div>
+
+
+                <div class="datospaciente1">
+                    <input type="text" placeholder="Numero de documento">
+                    <input type="date" placeholder="Fecha de registro">
+                </div>
+                <div>
+                    <select name="eps" id="eps">
+                        <option value="0" selected>Eps</option>
+                        <option value="1">COMPENSAR</option>
+                        <option value="2">SANITAS</option>
+                        <option value="3">FAMISANAR</option>
+                        <option value="4" selected>SALUD TOTAL</option>
+                        <option value="5">CAFESALUD</option>
+                        <option value="6">CRUZ BLANCA</option>
+                        <option value="7">SALUDVIDA</option>
+                    </select>
+                    <input type="number" placeholder="Edad">
+                </div>
+                </form>
+        </div>
+
+        <div class="subdatos">
+            <label>INFORMACION DE VACUNACIÓN</label>
+        </div>
+
+        <div class="datospaciente3">
+
+            <div>
+                <form>
+
+                    <select class="form-control" id="sede" name="sede" required>
+                        <option value="0">Sede</option>
+                        <option value="1">Movistar Arena</option>
+                        <option value="2">Corferias</option>
+                        <option value="3">Sede calle 93</option>
+                        <option value="4">Sede Chico Norte </option>
+                        <option value="5">Hospital de Kenedy</option>
+                        <option value="6">Sede Fontibón</option>
+                        <option value="7">Sede Puente largo</option>
+                        <option value="8">Sede Clinica Occidente</option>
+                    </select>
+            </div>
+            <div>
+                <input type="text" placeholder="Nombre del profesional">
+            </div>
+            </form>
+        </div>
+
+        <div class="datosvacunacion">
+            <form>
+                <input type="number" placeholder="ID Profesional">
+
+                <select class="form-control" id="dosis" name="dosis" required>
+                    <option value="0">Dosis</option>
+                    <option value="1">Primera Dosis</option>
+                    <option value="2">Segunda Dosis</option>
+                    <option value="3">Primer Refuerzo</option>
+                    <option value="4">Segundo Refuerzo </option>
+                </select>
+
+                <select class="form-control" id="biologico" name="biologico" required>
+                    <option value="0">Biologico</option>
+                    <option value="1">Moderna</option>
+                    <option value="2">Pfizer</option>
+                    <option value="3">Astrazeneca</option>
+                    <option value="4">Johnson & Johnson </option>
+                </select>
+            </form>
+        </div>
+        <div >
+            <form class="fechadosis">
+                <div>
+                    <label>Fecha primera</label>
+                    <input type="date" placeholder="Fecha de primera dosis">
+                </div>
+                <div>
+                <label>Fecha segunda</label>
+                <input type="date" placeholder="Fecha de primera dosis">
+            </div><br>
+            <label for="observ">Observaciones</label>
+            <div>
+               
+                <textarea id="observ" name="observ">
+                   
+                    </textarea>
+            </div>
+            </form>
+        </div>
+
+        
+       
+       
+
+     
+    </section>
+    <center><button class="botonguardar">GURADAR</button></center>
+    <footer class="footerindex">
+        <p>FORJA EMPRESAS 2022</p>
+    </footer>
+    </div>
+
+</body>
+
+</html>

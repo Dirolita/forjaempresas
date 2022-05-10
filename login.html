@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <title> Login Forja </title>
     <link rel="icon" href="img/iconohead.png">
@@ -28,28 +29,24 @@
 
             <div class="group">
                 <label for="usuario" class="form-label">Usuario</label>
-                <input type="text" name="user" class="form-input">
+                <input type="text" name="user" class="form-input" id="user">
             </div>
             <div class="group">
                 <label for="contraseña" class="form-label">Contraseña</label>
-                <input type="password" name="user" class="form-input">
+                <input type="password" name="user" class="form-input" id="psw">
             </div>
             <div class="igresob">
-                <a>Olvidaste tu contraseña</a>
-
-                <button><a href="dashboard.html">Ingresar</a></button>
+                <a href="#"><p>Olvidaste tu contraseña</p></a>
+                <input type="button" value="Ingresar" id="boton" >
             </div>
         </form>
     </div>
-
-
-
-
-
-
-
-
-
+    <div id="alertUser">
+        <h2>Error de credenciales</h2>
+        <p>Porfavor rectificar</p>
+        <button id="btnOk">ok</button>
+    </div>
+    <script src="js/script.js"></script>
 
 </body>
 
