@@ -30,36 +30,30 @@
 
 
 
-        <h1>INFORMACIÓN DEL PACIENTE</h1>
+        <h1> REGISTRO DE VACUNACIÓN</h1>
     </div>
 
     <section class="cajaformulario">
 
         <div class="f1">
             <form>
-                <input type="date" placeholder="Fecha de registro">
-                <input type="text" placeholder="N° registro">
-            </form>
+                <input type="date" placeholder="Fecha de registro" required="required">
+                <input type="text" placeholder="N° registro" required="required">
         </div>
-
         <div class="subdatos">
             <label><i class="fa-solid fa-user"></i>DATOS DEL PACIENTE</label>
         </div>
-
         <div>
-            <from>
                 <div class="datospaciente1">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellidos">
+                    <input type="text" placeholder="Nombre" required="required">
+                    <input type="text" placeholder="Apellidos" required="required">
                 </div>
-
-
                 <div class="datospaciente1">
-                    <input type="text" placeholder="Numero de documento">
-                    <input type="date" placeholder="Fecha de registro">
+                    <input type="text" placeholder="Numero de documento" required="required">
+                    <input type="date" placeholder="Fecha de registro" required="required">
                 </div>
                 <div>
-                    <select name="eps" id="eps">
+                    <select name="eps" id="eps" required="required">
                         <option value="0" selected>Eps</option>
                         <option value="1">COMPENSAR</option>
                         <option value="2">SANITAS</option>
@@ -69,20 +63,14 @@
                         <option value="6">CRUZ BLANCA</option>
                         <option value="7">SALUDVIDA</option>
                     </select>
-                    <input type="number" placeholder="Edad">
+                    <input type="number" placeholder="Edad" required="required">
                 </div>
-                </form>
         </div>
-
         <div class="subdatos">
             <label>INFORMACION DE VACUNACIÓN</label>
         </div>
-
         <div class="datospaciente3">
-
             <div>
-                <form>
-
                     <select class="form-control" id="sede" name="sede" required>
                         <option value="0">Sede</option>
                         <option value="1">Movistar Arena</option>
@@ -96,15 +84,11 @@
                     </select>
             </div>
             <div>
-                <input type="text" placeholder="Nombre del profesional">
+                <input type="text" placeholder="Nombre del profesional" required>
             </div>
-            </form>
-        </div>
-
-        <div class="datosvacunacion">
-            <form>
-                <input type="number" placeholder="ID Profesional">
-
+            </div>
+            <div class="datosvacunacion">
+                <input type="number" placeholder="ID Profesional" required>
                 <select class="form-control" id="dosis" name="dosis" required>
                     <option value="0">Dosis</option>
                     <option value="1">Primera Dosis</option>
@@ -120,35 +104,28 @@
                     <option value="3">Astrazeneca</option>
                     <option value="4">Johnson & Johnson </option>
                 </select>
-            </form>
-        </div>
+            </div>
         <div >
-            <form class="fechadosis">
+        <div>
                 <div>
                     <label>Fecha primera</label>
-                    <input type="date" placeholder="Fecha de primera dosis">
+                    <input type="date" placeholder="Fecha de primera dosis" required>
                 </div>
                 <div>
                 <label>Fecha segunda</label>
-                <input type="date" placeholder="Fecha de primera dosis">
+                <input type="date" placeholder="Fecha de primera dosis" required>
             </div><br>
-            <label for="observ">Observaciones</label>
-            <div>
-               
-                <textarea id="observ" name="observ">
-                   
-                    </textarea>
-            </div>
-            </form>
         </div>
-
+            
+            <div class="txtarea">
+                <label for="observ">Observaciones</label>
+                <textarea id="observ" name="observ"></textarea>
+            </div>
         
-       
-       
-
-     
+        </div>
     </section>
-    <center><button class="botonguardar">GURADAR</button></center>
+    <center><input class="botonguardar" type="submit"></center>
+</form>
     <footer class="footerindex">
         <p>FORJA EMPRESAS 2022</p>
     </footer>

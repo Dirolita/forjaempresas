@@ -476,7 +476,7 @@ button {
     align-items: center;
     justify-content: space-around;
     width: 40%;
-    height: 340px;
+    height: 350px;
     background-color: white;
     position:absolute;
     left: 25%;
@@ -628,7 +628,15 @@ tbody {
     display: block;
 }
 .datosvacunacion{
+    margin-bottom: 20px;
     display: flex;
+    flex-direction: column;
+}
+.txtarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .fechadosis{
 
@@ -637,10 +645,7 @@ tbody {
     align-items: center;
     flex-direction: column;
 }
-#biologico{
-    display: flex;
-    margin: ;
-}
+
 #dosis{
     margin-left: 12px;
 }
@@ -779,6 +784,10 @@ top: 30px;
     left: 45%;
     top: 20%;
 }
+.datosvacunacion{
+    flex-direction: row;
+}
+
 }
 @media screen and (min-width:1024px) {
     #principalh {
@@ -957,10 +966,9 @@ top: 30px;
         font-size: medium;
     }
    
-    #biologico{
-        display: flex;
-        margin:10px auto ;
-    }
+   .datosvacunacion{
+       flex-direction: row;
+   }
     #dosis{
         margin-left: 1px;
     }
