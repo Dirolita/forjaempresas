@@ -352,11 +352,12 @@ button {
 .dashcontenido {
     flex-basis: 80%;
 }
+
 .guerreros img {
-    width: 200px;
+    width: 100px;
     position: relative;
-    right: 20px;
-    bottom: 20px;
+    right: 80px;
+    bottom: -20px;
     animation-name: ejemplo;
     animation-duration: 2s;
     animation-iteration-count: 3;
@@ -475,7 +476,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 40%;
+    width: 60%;
     height: 350px;
     background-color: white;
     position:absolute;
@@ -780,6 +781,7 @@ top: 30px;
     width: 300PX;
 }
 .superior {
+    width: 60%;
     position:absolute;
     left: 45%;
     top: 20%;
@@ -977,6 +979,7 @@ top: 30px;
         width: 400PX;
     }
     .superior {
+        width: 30%;
         position:absolute;
         left: 45%;
         top: 20%;
