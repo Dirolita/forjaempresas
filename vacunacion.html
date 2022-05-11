@@ -38,18 +38,18 @@
         <div class="f1">
             <form>
                 <input type="date" placeholder="Fecha de registro" required="required">
-                <input type="text" placeholder="N° registro" required="required">
+                <input type="text" placeholder="N° registro" required="required" pattern="[0-9]{5}" title="Solo numeros y la cantidad (5 numeros) correspondiente del registro">
         </div>
         <div class="subdatos">
             <label><i class="fa-solid fa-user"></i>DATOS DEL PACIENTE</label>
         </div>
         <div>
                 <div class="datospaciente1">
-                    <input type="text" placeholder="Nombre" required="required">
+                    <input type="text" placeholder="Nombre" required="required" pattern="[a-z]{2,15}" title="solo puedes usar letras  para rellenar este campo">
                     <input type="text" placeholder="Apellidos" required="required">
                 </div>
                 <div class="datospaciente1">
-                    <input type="text" placeholder="Numero de documento" required="required">
+                    <input type="text" placeholder="Numero de documento" required="required" pattern="[0-9]{8}" title="Solo numeros y  el numero minimo de caracteres permitidos son 8">
                     <input type="date" placeholder="Fecha de registro" required="required">
                 </div>
                 <div>
