@@ -520,6 +520,15 @@ button {
     color: white;
     text-decoration: none;
 }
+.estado{
+    margin: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.estado a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .secpaciente {
     display: flex;
     flex-direction: column;
@@ -789,6 +798,11 @@ top: 30px;
 .datosvacunacion{
     flex-direction: row;
 }
+.estado{
+    margin: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
 }
 @media screen and (min-width:1024px) {
@@ -983,5 +997,10 @@ top: 30px;
         position:absolute;
         left: 45%;
         top: 20%;
+    }
+    .estado{
+        margin: 2px 20px;
+        display: flex;
+        justify-content: space-between;
     }
 }
