@@ -482,6 +482,17 @@ button {
     position:absolute;
     left: 20%;
     top: 60%;
+    animation: show 1s 0.5s backwards;
+}
+@keyframes show {
+    0%{
+        transform: translateY(
+            -150vh
+        );
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 .noregis h2{
     color: rgb(65, 64, 64);
